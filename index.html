@@ -26,12 +26,14 @@
       --cream:#11142a;
       --paper:#191d3a;
       --ink:#f2eee0;
+      --royal-deep:#a9b8ff;
     }
   }
   :root[data-theme="dark"]{
     --cream:#11142a;
     --paper:#191d3a;
     --ink:#f2eee0;
+    --royal-deep:#a9b8ff;
   }
 
   *{box-sizing:border-box;}
@@ -536,7 +538,7 @@
             <div class="icon">⏰</div>
             <div>
               <p class="pill-label">Time</p>
-              <p class="pill-value">12–2 PM</p>
+              <p class="pill-value">11:30 AM–2 PM</p>
             </div>
           </div>
           <div class="pill full">
@@ -554,9 +556,9 @@
               <p class="stamp-tag">Dress Code</p>
               <p class="stamp-word">Khaki</p>
               <div class="stamp-swatch">
+                <span style="background:#e3d3a6;"></span>
                 <span style="background:#d4bf93;"></span>
                 <span style="background:#9c855a;"></span>
-                <span style="background:#2438a8;"></span>
               </div>
             </div>
           </div>
@@ -650,7 +652,7 @@
   });
 
   // ---- Countdown ----
-  var target = new Date("2026-10-03T12:00:00+08:00").getTime();
+  var target = new Date("2026-10-03T11:30:00+08:00").getTime();
   var daysEl = document.getElementById('cd-days');
   var hoursEl = document.getElementById('cd-hours');
   var minsEl = document.getElementById('cd-mins');
